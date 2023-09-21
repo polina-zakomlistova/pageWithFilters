@@ -5,7 +5,7 @@
 
 ### Демонстрационный вариант
 
-Приложение доступно по [ссылке][(https://polina-zakomlistova.github.io/chat-green-api/](https://polina-zakomlistova.github.io/pageWithFilters/))
+Приложение доступно по [ссылке](https://polina-zakomlistova.github.io/pageWithFilters/)
 
 ### Установка
 
