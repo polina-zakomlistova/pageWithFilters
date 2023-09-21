@@ -1,0 +1,26 @@
+.Navbar {
+    height: 100vh;
+    width: var(--navbar-width);
+    background-color: var(--bg-secondary-color);
+    color: var(--primary-color);
+    position: relative;
+    transition: width 0.2s;
+    padding: 10px;
+    :active {
+        color: var(--link-color);
+    }
+}
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.collapsed {
+    width: var(--navbar-width-collapsed);
+}
+
+.link:not(:last-child) {
+    margin-bottom: 10px;
+}

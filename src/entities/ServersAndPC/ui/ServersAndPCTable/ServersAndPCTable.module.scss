@@ -1,0 +1,11 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.search {
+    margin-bottom: 20px;
+    width: 50%;
+
+    align-self: flex-end;
+}

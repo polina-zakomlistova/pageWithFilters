@@ -1,0 +1,40 @@
+@import 'styles.scss';
+
+.footer {
+    text-align: center;
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+    padding: 10px;
+    @include font(var(--font-size-m), var(--font-line-m), var(--font-weight-m));
+}
+
+.app {
+    background: var(--bg-color);
+    color: var(--primary-color);
+    text-align: center;
+    @include font(var(--font-size-m), var(--font-line-m), var(--font-weight-m));
+}
+
+.page-wrapper {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+}
+
+.title {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,18 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.formControl {
+    margin: 10px;
+    min-width: 120px;
+    max-width: 300px;
+}
+.chips {
+    display: flex;
+    flex-wrap: wrap;
+}
+.chip {
+    margin: 5px;
+    width: auto;
+}
